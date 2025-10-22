@@ -1,3 +1,6 @@
+/* ===========================
+   GLOBAL PAGE STYLE
+   =========================== */
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   margin: 0;
@@ -5,6 +8,9 @@ body {
   color: #333;
 }
 
+/* ===========================
+   HEADER
+   =========================== */
 header {
   background-color: #1b4332;
   color: white;
@@ -12,64 +18,52 @@ header {
   text-align: center;
 }
 
+/* ===========================
+   NAVIGATION BAR
+   =========================== */
 nav {
   background: #2d6a4f;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem 0;                     /* 🔹 more height for balance */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* =======================
-   NAVIGATION STYLE UPDATE
-   ======================= */
-nav {
-  background-color: #2d6a4f;      /* keeps a professional green tone */
-  text-align: center;
-  padding: 1rem 0;               /* adds height to navbar */
-}
-
-nav a {
-  color: #ffffff;                /* white text for good contrast */
-  text-decoration: none;
-  font-size: 1.3rem;             /* 🔹 bigger font size */
-  font-weight: 600;              /* 🔹 bold but not too heavy */
-  margin: 0 1.2rem;              /* 🔹 spacing between menu items */
+  margin: 0 2.5rem;                    /* 🔹 more spacing between links */
+  font-weight: 600;
+  font-size: 1.7rem;                   /* 🔹 similar to <h3> size */
   letter-spacing: 0.5px;
   transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
-  color: #b7e4c7;                /* light green hover color */
-  text-decoration: underline;    /* keeps simple hover effect */
+  text-decoration: underline;
+  color: #b7e4c7;
+  transform: scale(1.05);
 }
 
-
+/* ===========================
+   MAIN CONTENT CONTAINER
+   =========================== */
 .container {
   max-width: 900px;
-  margin: auto;
-  padding: 2rem;
+  margin: 3rem auto;                   /* 🔹 adds space around content */
+  padding: 2.5rem;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 10px;
 }
 
+/* ===========================
+   FOOTER
+   =========================== */
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem 0;
   font-size: 0.9rem;
   color: #555;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
 }
-position: sticky;
-top: 0;
-z-index: 1000;
