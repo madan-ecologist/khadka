@@ -12,7 +12,22 @@ header {
   text-align: center;
 }
 
-body {
+nav {
+  background: #2d6a4f;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 .container {
   max-width: 900px;
