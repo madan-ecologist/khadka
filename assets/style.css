@@ -6,11 +6,11 @@ body {
   margin: 0;
   background: #f7f9f8;
   color: #333;
-   p {
+   }
+/* Justify all paragraph text */
+p {
   text-align: justify;
 }
-}
-
 /* ===========================
    HEADER
    =========================== */
