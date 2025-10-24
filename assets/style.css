@@ -31,26 +31,27 @@ z-index: 1000;
    NAVIGATION BAR
    =========================== */
 nav {
-  background-color: #2d6a4f;      /* keeps a professional green tone */
+  background-color: #2d6a4f;         /* green background */
   text-align: center;
-  padding: 1rem 0;               /* adds height to navbar */
+  padding: 1.2rem 0;                 /* increase height */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
 nav a {
-  color: #ffffff;                /* white text for good contrast */
+  color: #ffffff;
   text-decoration: none;
-  font-size: 1.3rem;             /* 🔹 bigger font size */
-  font-weight: 600;              /* 🔹 bold but not too heavy */
-  margin: 0 1.2rem;              /* 🔹 spacing between menu items */
+  font-size: 1.3rem;                 /* 🔹 bigger font size */
+  font-weight: 700;                  /* 🔹 bold */
+  margin: 0 1.5rem;                  /* 🔹 spacing between links */
   letter-spacing: 0.5px;
   transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
-  color: #b7e4c7;                /* light green hover color */
-  text-decoration: underline;    /* keeps simple hover effect */
+  color: #b7e4c7;                    /* light green hover */
+  text-decoration: underline;
+  transform: scale(1.05);            /* small zoom effect */
 }
-
 
 /* ===========================
    MAIN CONTENT CONTAINER
