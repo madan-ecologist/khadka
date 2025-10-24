@@ -14,12 +14,9 @@ body {
 header {
   background-color: #1b4332;
   color: white;
-  padding: 0.8rem 0;           /* 🔹 reduced height */
+  padding: 1.5rem 0;
   text-align: center;
-  font-size: 1.8rem;           /* optional: adjust headline size */
-  letter-spacing: 0.5px;
 }
-
 /* ===========================
    NAVIGATION BAR
    =========================== */
