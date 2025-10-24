@@ -14,8 +14,10 @@ body {
 header {
   background-color: #1b4332;
   color: white;
-  padding: 1.5rem 0;
+  padding: 0.8rem 0;           /* 🔹 reduced height */
   text-align: center;
+  font-size: 1.8rem;           /* optional: adjust headline size */
+  letter-spacing: 0.5px;
 }
 
 /* ===========================
@@ -24,16 +26,19 @@ header {
 nav {
   background: #2d6a4f;
   text-align: center;
-  padding: 1rem 0;                     /* 🔹 more height for balance */
+  padding: 0.6rem 0;           /* 🔹 slightly smaller height */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 2.5rem;                    /* 🔹 more spacing between links */
+  margin: 0 2rem;              /* balanced spacing between links */
   font-weight: 600;
-  font-size: 1.7rem;                   /* 🔹 similar to <h3> size */
+  font-size: 1.5rem;           /* still large like h3 but not oversized */
   letter-spacing: 0.5px;
   transition: all 0.2s ease-in-out;
 }
@@ -41,8 +46,8 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   color: #b7e4c7;
-  transform: scale(1.05);
 }
+
 
 /* ===========================
    MAIN CONTENT CONTAINER
