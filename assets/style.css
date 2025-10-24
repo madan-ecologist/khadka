@@ -32,7 +32,7 @@ nav {
   background: #2d6a4f;
   text-align: center;
   padding: 0.2rem 0;                     /* 🔹 more height for balance */
- /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
    position: sticky;
 top: 0;
 z-index: 1000;
