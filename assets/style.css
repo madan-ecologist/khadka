@@ -6,13 +6,6 @@ body {
   margin: 0;
   background: #f7f9f8;
   color: #333;
-   }
-/* Justify all paragraph text */
-p {
-  text-align: justify;
-}
-li {
-  text-align: justify;
 }
 
 /* ===========================
@@ -23,10 +16,8 @@ header {
   color: white;
   padding: 1.5rem 0;
   text-align: center;
-    position: sticky;
-top: 0;
-z-index: 1000;
 }
+
 /* ===========================
    NAVIGATION BAR
    =========================== */
@@ -52,6 +43,7 @@ nav a:hover {
   color: #b7e4c7;
   transform: scale(1.05);
 }
+
 /* ===========================
    MAIN CONTENT CONTAINER
    =========================== */
