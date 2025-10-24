@@ -33,6 +33,9 @@ nav {
   text-align: center;
   padding: 1rem 0;                     /* 🔹 more height for balance */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   position: sticky;
+top: 0;
+z-index: 1000;
 }
 
 nav a {
