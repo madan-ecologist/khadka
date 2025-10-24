@@ -31,8 +31,8 @@ header {
 nav {
   background: #2d6a4f;
   text-align: center;
-  padding: 0.6rem 0;                     /* 🔹 more height for balance */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;                     /* 🔹 more height for balance */
+ /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);
    position: sticky;
 top: 0;
 z-index: 1000;
@@ -41,7 +41,7 @@ z-index: 1000;
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 2.5rem;                    /* 🔹 more spacing between links */
+  margin: 0 1rem;                    /* 🔹 more spacing between links */
   font-weight: 600;
   font-size: 1.7rem;                   /* 🔹 similar to <h3> size */
   letter-spacing: 0.5px;
