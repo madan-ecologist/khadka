@@ -31,26 +31,20 @@ z-index: 1000;
    NAVIGATION BAR
    =========================== */
 nav {
-  background-color: #2d6a4f;         /* green background */
+  background: #2d6a4f;
   text-align: center;
-  padding: 1.2rem 0;                 /* increase height */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  padding: 0.5rem;
 }
 
 nav a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
-  font-size: 1.3rem;                 /* 🔹 bigger font size */
-  font-weight: 700;                  /* 🔹 bold */
-  margin: 0 1.5rem;                  /* 🔹 spacing between links */
-  letter-spacing: 0.5px;
-  transition: all 0.2s ease-in-out;
+  margin: 0 1rem;
+  font-weight: 500;
 }
 
 nav a:hover {
-  color: #b7e4c7;                    /* light green hover */
   text-decoration: underline;
-  transform: scale(1.05);            /* small zoom effect */
 }
 
 /* ===========================
