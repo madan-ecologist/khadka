@@ -33,18 +33,24 @@ z-index: 1000;
 nav {
   background: #2d6a4f;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem 0;                     /* 🔹 more height for balance */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
-  font-weight: 500;
+  margin: 0 2.5rem;                    /* 🔹 more spacing between links */
+  font-weight: 600;
+  font-size: 1.7rem;                   /* 🔹 similar to <h3> size */
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #b7e4c7;
+  transform: scale(1.05);
 }
 /* ===========================
    MAIN CONTENT CONTAINER
